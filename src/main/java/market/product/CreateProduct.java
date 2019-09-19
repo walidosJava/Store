@@ -6,10 +6,14 @@ import market.entity.Product;
 
 /**
  * Created by Walid on 11/09/2019.
+ * Create product properties.
+ *
  */
 public class CreateProduct {
     /**
      * customize appple product
+     *price : 0.2 <br>
+     *     Buy One Get One Free on Apples
      *
      * @return
      */
@@ -24,7 +28,10 @@ public class CreateProduct {
     }
 
     /**
-     * customize wtermelon
+     * customize watermelon.
+     * price : 0.8<br>
+     * Three For The Price Of Two on Watermelons
+
      *
      * @return product termelon
      */
@@ -39,9 +46,11 @@ public class CreateProduct {
     }
 
     /**
-     * ccustomize ornage product
-     *
-     * @return
+     * customize orange product
+     *price : 0.5 <br>
+     *     without dicoount
+
+     * @return orange product entity
      */
     public static Product getOrange() {
         Product orange = new Product();

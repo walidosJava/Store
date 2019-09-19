@@ -7,7 +7,8 @@ import java.util.Map;
 
 /**
  * Created by Walid on 10/09/2019.
- * The content of basket
+ * The content of basket.
+ * Te main operation on the basket
  */
 public class Basket {
     private Map<Product, Integer> items;
@@ -25,7 +26,7 @@ public class Basket {
      * @param product
      */
     public void addProduct(Product product){
-      addProduct(product, 1);
+        addProduct(product, 1);
     }
 
     /**
