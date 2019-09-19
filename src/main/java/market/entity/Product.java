@@ -3,7 +3,7 @@ package market.entity;
 import market.disscount.DiscountFormula;
 
 /**
- * Created by Walid on 10/09/2019.
+ * Created by Walid on 19/09/2019.
  * This class englobe alla informatins for product such as  pricee and discount
  */
 public class Product {
@@ -46,7 +46,7 @@ public class Product {
 
     /**
      * equality of two object.
-     * if these pprooduct have the samme name ==> there are the same product.
+     * if these product have the same name ==> there are the same product.
      * @param o
      * @return
      */
@@ -74,7 +74,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{" +
+        return "{" +
                 "name='" + name + '\'' +
                 ", price=" + price +
                 '}';

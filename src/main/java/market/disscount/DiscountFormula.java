@@ -1,7 +1,7 @@
 package market.disscount;
 
 /**
- * Created by Walid 10/09/2019.
+ * Created by Walid 19/09/2019.
  * The formula for discounting
  */
 public class DiscountFormula {

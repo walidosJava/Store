@@ -6,32 +6,11 @@ import java.math.BigDecimal;
 import java.math.MathContext;
 
 /**
- * Created by Walid on 11/09/2019.
+ * Created by Walid on 19/09/2019.
  * this is a main class for calcculating amount of basket.
  * The main class display the amount for bsket at contains
  *
- * <table>
- <thead>
- <tr>
- <th>item</th>
- <th>Quantity</th>
- </tr>
- </thead>
- <tbody>
- <tr>
- <td>Apple</td>
- <td>4</td>
- </tr>
- <tr>
- <td>Orange</td>
- <td>3</td>
- </tr>
- <tr>
- <td>Watermelon</td>
- <td>5</td>
- </tr>
- </tbody>
- </table>
+
  */
 public class MainClass {
     public static void main(String... args) {
@@ -41,7 +20,7 @@ public class MainClass {
         basket.addProduct(CreateProduct.getWatermelon(), 7);
         MarketCash marketCash = new MarketCash(basket);
         System.out.println(basket);
-        double tolalAmoount = new BigDecimal(marketCash.calculateMount(), MathContext.DECIMAL32).setScale(2).doubleValue();
-        System.out.print("\n total price = " + tolalAmoount + " $");
+        double tolalAmount = marketCash.calculateMount();
+        System.out.print("\n total price = " + tolalAmount + " $");
     }
 }

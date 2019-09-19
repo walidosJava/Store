@@ -5,7 +5,7 @@ import market.disscount.DiscountType;
 import market.entity.Product;
 
 /**
- * Created by Walid on 11/09/2019.
+ * Created by Walid on 19/09/2019.
  * Create product properties.
  *
  */
@@ -33,7 +33,7 @@ public class CreateProduct {
      * Three For The Price Of Two on Watermelons
 
      *
-     * @return product termelon
+     * @return product watermelon
      */
     public static Product getWatermelon() {
         Product watermelon = new Product();
@@ -48,13 +48,13 @@ public class CreateProduct {
     /**
      * customize orange product
      *price : 0.5 <br>
-     *     without dicoount
+     *     without discount
 
      * @return orange product entity
      */
     public static Product getOrange() {
         Product orange = new Product();
-        orange.setName("Oraage");
+        orange.setName("Orange");
         orange.setPrice(0.5);
         orange.setDiscounted(false);
         return orange;

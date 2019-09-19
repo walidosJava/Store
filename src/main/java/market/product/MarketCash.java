@@ -2,10 +2,12 @@ package market.product;
 
 import market.entity.Product;
 
+import java.math.BigDecimal;
+import java.math.MathContext;
 import java.util.Map;
 
 /**
- * Created by Walid on 10/09/2019.
+ * Created by Walid on 19/09/2019.
  * This is class is responsible for calculating a price of basket
  */
 public class MarketCash {
@@ -34,7 +36,8 @@ public class MarketCash {
             }
 
         }
-        return totalAmount;
+        return  new BigDecimal(totalAmount, MathContext.DECIMAL32).setScale(2).doubleValue();
+
     }
 
     /**
