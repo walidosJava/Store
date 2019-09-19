@@ -4,7 +4,7 @@ import market.disscount.DiscountFormula;
 
 /**
  * Created by Walid on 10/09/2019.
- * This class englobe alla informatins for product ssuch as  pricee and discount
+ * This class englobe alla informatins for product such as  pricee and discount
  */
 public class Product {
     private String name;
@@ -44,6 +44,12 @@ public class Product {
         this.discountFormula = discountFormula;
     }
 
+    /**
+     * equality of two object.
+     * if these pprooduct have the samme name ==> there are the same product.
+     * @param o
+     * @return
+     */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

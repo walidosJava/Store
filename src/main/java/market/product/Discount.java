@@ -4,7 +4,7 @@ import market.disscount.DiscountType;
 
 /**
  * Created by Walid on 10/09/2019.
- * this claass is responsiible for discounnt calcu and formula
+ * this claas is responslible for discounnt calcul and formula
  */
 public class Discount {
 
